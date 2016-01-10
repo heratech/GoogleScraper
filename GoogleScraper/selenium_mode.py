@@ -85,6 +85,7 @@ class SelScrape(SearchEngineScrape, threading.Thread):
         'googleimg': {
             'image_type': (By.ID, 'imgtype_input'),
             'image_size': (By.ID, 'imgsz_input'),
+	    'image_aspect': (By.ID, 'tbs'),
         },
     }
 
@@ -92,6 +93,7 @@ class SelScrape(SearchEngineScrape, threading.Thread):
         'googleimg': {
             'image_type': None,
             'image_size': None,
+	    'image_aspect': None,
         },
     }
 

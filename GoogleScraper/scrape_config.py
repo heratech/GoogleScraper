@@ -147,6 +147,7 @@ raise_exceptions_while_scraping = True
 # do NOT use them unless you are sure what you are going to do
 image_type = None
 image_size = None
+image_aspect = 'iar:t'
 
 """
 [GLOBAL]
